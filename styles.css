@@ -1261,7 +1261,7 @@ img {
 .instagram-reel-controls{display:flex;justify-content:flex-end;gap:10px;margin-top:16px}
 .instagram-reel-controls .slider-btn{display:grid;place-items:center}
 @media(max-width:950px){.instagram-reel-card{flex-basis:calc((100% - 18px)/2)}}
-@media(max-width:600px){.instagram-reel-track{gap:14px}.instagram-reel-card{flex-basis:82vw}.instagram-reel-controls{justify-content:center}.reels-section .section-head{gap:20px}}
+@media(max-width:600px){.instagram-reel-track{gap:14px}.instagram-reel-card{flex-basis:82vw}.instagram-reel-controls{justify-content:right}.reels-section .section-head{gap:20px}}
 
 /* v8.17 — hero video sound control */
 .hero-video-controls{position:absolute!important;right:18px!important;bottom:18px!important;z-index:8!important;display:flex!important;gap:8px!important;align-items:center!important}
@@ -1297,7 +1297,7 @@ img {
 
 /* v8.20 — hero video alignment, crisp rendering and reliable controls */
 .hero-visual{position:relative!important;min-height:560px!important}
-.hero-video-frame{position:relative!important;width:79%!important;height:540px!important;margin-left:auto!important;border-radius:190px 190px 18px 18px!important;overflow:hidden!important;background:#e9efec!important;isolation:isolate!important}
+.hero-video-frame{position:relative!important;width:100%!important;height:540px!important;margin-left:auto!important;border-radius:190px 190px 18px 18px!important;overflow:hidden!important;background:#e9efec!important;isolation:isolate!important}
 .hero-video-frame .hero-video{position:absolute!important;inset:0!important;width:100%!important;height:100%!important;display:block!important;object-fit:cover!important;object-position:center center!important;transform:none!important;filter:none!important;image-rendering:auto!important;background:#e9efec!important}
 .hero-video-controls{position:absolute!important;right:18px!important;bottom:18px!important;z-index:10!important;display:flex!important;gap:10px!important;align-items:center!important;pointer-events:auto!important}
 .hero-video-controls button{position:relative!important;width:46px!important;height:46px!important;min-width:46px!important;padding:0!important;border:1px solid rgba(255,255,255,.72)!important;border-radius:50%!important;background:rgba(255,255,255,.94)!important;color:#193c36!important;display:grid!important;place-items:center!important;cursor:pointer!important;box-shadow:0 8px 22px rgba(0,0,0,.12)!important;backdrop-filter:blur(8px)!important;-webkit-backdrop-filter:blur(8px)!important}
